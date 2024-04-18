@@ -13,6 +13,10 @@ peasant.cost = 2;
 talisman.cost = 25;
 superUltraNuke.cost = 50;
 
+Bandit.name = "Ugly";
+Bandit.Maxhp = 150;
+Bandit.strength = 25;
+
 Console.WriteLine("What is your name??");
 p.name = Console.ReadLine();
 
