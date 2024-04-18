@@ -17,24 +17,24 @@ public class Shop
         shopChoice = Console.ReadLine();
         if (shopChoice == "Peasant" || shopChoice == "peasant" || shopChoice == "1")
         {
-            Character.money -= peasant.cost;
-            Character.Inventory.Add(peasant);
+            p.money -= peasant.cost;
+            p.Inventory.Add(peasant);
             Console.WriteLine("Congrats, you bought a Peasant!!");
         }
         else if (shopChoice == "Potion" || shopChoice == "potion" || shopChoice == "2")
         {
-            Character.money -= potion.cost;
-            Character.Inventory.Add(potion);
+            p.money -= potion.cost;
+            p.Inventory.Add(potion);
         }
         else if (shopChoice == "Talisman" || shopChoice == "talisman" || shopChoice == "3")
         {
-            Character.money -= talisman.cost;
-            Character.Inventory.Add(talisman);
+            p.money -= talisman.cost;
+            p.Inventory.Add(talisman);
         }
         else if (shopChoice == "Nuke" || shopChoice == "nuke" || shopChoice == "4")
         {
-            Character.money -= superUltraNuke.cost;
-            Character.Inventory.Add(superUltraNuke);
+            p.money -= superUltraNuke.cost;
+            p.Inventory.Add(superUltraNuke);
         }
         else if (shopChoice == "no")
         {

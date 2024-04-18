@@ -11,5 +11,5 @@ public class Character
     public int currentMp;
     public int strength;
     public int money = 50;
-    
+
 }
