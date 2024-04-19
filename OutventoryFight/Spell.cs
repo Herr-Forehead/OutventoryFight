@@ -1,10 +1,11 @@
 ﻿namespace OutventoryFight;
 
-public class Spell
+public class Spell : Item
 {
-    public string name;
-    public void Getinfo()
+    public int baseDmg;
+    public static void damage()
     {
-        
+        int spellAttackDmg = Spell.baseDmg + Character.Int;
+        Enemy.currentHp -= spellAttackDmg;
     }
 }

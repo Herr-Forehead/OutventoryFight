@@ -9,7 +9,7 @@ public class Character
     public int currentHp;
     public int MaxMp;
     public int currentMp;
-    public int strength;
+    public int Int;
     public int money = 50;
     public int luck;
 }

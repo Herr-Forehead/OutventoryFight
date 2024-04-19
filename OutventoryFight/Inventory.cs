@@ -12,7 +12,7 @@ public class Inventory
     public static void viewInventory()
     {
         Console.Clear();
-        Console.WriteLine($"{p.name}             {p.money}");
+        Console.WriteLine({p.name}             {p.money});
         Console.WriteLine("");
         Console.WriteLine(p.Inventory.items);
         Console.ReadLine();

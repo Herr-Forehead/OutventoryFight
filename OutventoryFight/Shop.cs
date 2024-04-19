@@ -7,7 +7,7 @@ public class Shop
     {
         string shopChoice;
         Console.Clear();
-        Console.WriteLine($"{p.name}             {p.money}");
+        Console.WriteLine(p.name             p.money);
         Console.WriteLine("");
         Console.WriteLine("1. Peasant                         2g");
         Console.WriteLine("2. Potion                          10g");
