@@ -28,7 +28,7 @@ p.name = Console.ReadLine();
 
 while (restart == "yes")
 {
-    Menu.MainMenu();
+    Menu.MainMenu(p, potion, peasant, talisman, superUltraNuke, Bandit);
 }
 
 Console.ReadLine();

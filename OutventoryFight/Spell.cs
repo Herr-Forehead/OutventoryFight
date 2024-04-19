@@ -6,6 +6,5 @@ public class Spell : Item
     public static void damage()
     {
         int spellAttackDmg = Spell.baseDmg + Character.Int;
-        Enemy.currentHp -= spellAttackDmg;
     }
 }

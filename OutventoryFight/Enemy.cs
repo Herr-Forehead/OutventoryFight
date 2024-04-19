@@ -2,5 +2,6 @@
 
 public class Enemy : Character
 {
-    public int loaf = generator.Next(5);
+    public int loaf = Random.Shared.Next(5);
+    
 }

@@ -2,9 +2,9 @@
 
 public class Player : Character
 {
-    public int Hitroll = generator.Next(101);
-    public static void HitChance()
+    public int Hitroll = Random.Shared.Next(101);
+    public static void HitChance(Player player)
     {
-        int HitChance = Hitroll+Character.luck;
+        int HitChance = player.Hitroll+player.luck;
     }
 }
