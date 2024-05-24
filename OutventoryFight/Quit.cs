@@ -4,6 +4,7 @@ public class Quit
 {
    static public void Quitting()
    {
+        string restart = "yes";
         string quitChoice;
         Console.Clear();
         Console.WriteLine("Well thats sad");

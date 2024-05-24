@@ -12,9 +12,9 @@ public class Inventory
     public static void viewInventory(Player player)
     {
         Console.Clear();
-        Console.WriteLine(p.name             p.money);
+        Console.WriteLine(player.name + player.money);
         Console.WriteLine("");
-        Console.WriteLine(p.Inventory.items);
+        Console.WriteLine(player.Inventory.items);
         Console.ReadLine();
     }
 }

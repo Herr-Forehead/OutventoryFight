@@ -4,8 +4,8 @@ public class Item
 {
     public string name;
     public int cost;
-    public void Getinfo()
+    public string Getinfo()
     {
-        
+        return name+ "("+cost+")";
     }
 }

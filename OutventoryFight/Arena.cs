@@ -2,7 +2,7 @@
 
 public class Arena
 {
-    public static void arenaFight(Player player)
+    public static void arenaFight(Player player, Enemy enemy, Spell Firebolt, Menu menu)
     {
         string arenaChoice;
 
@@ -14,11 +14,11 @@ public class Arena
         {
             string FightChoice;
             string spellChoice;
-            while(player.currentHp > 0 && Enemy.currentHp > 0)
+            while(player.currentHp > 0 && enemy.currentHp > 0)
             {
             FightChoice = Console.ReadLine();
             Console.Clear();
-            Console.WriteLine(Enemy.currentHp);
+            Console.WriteLine(enemy.currentHp);
             Console.WriteLine("");
             Console.WriteLine("What do you want to do?");
             Console.WriteLine("a) Attack");
@@ -29,7 +29,7 @@ public class Arena
             if(FightChoice == "a)" || FightChoice == "a" || FightChoice == "attack")
             {
                 Console.Clear();
-                Console.WriteLine(Enemy.currentHp);
+                Console.WriteLine(enemy.currentHp);
                 Console.WriteLine("");
                 Console.WriteLine("Which spell will you use?");
                 Console.WriteLine("a) firebolt");
@@ -42,7 +42,8 @@ public class Arena
                     {
                       Firebolt.damage();
                     }
-                    else if()
+                    else
+                    {}
                 }
 
             }

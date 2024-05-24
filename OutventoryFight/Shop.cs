@@ -3,11 +3,11 @@
 public class Shop
 {
     public string shopChoice;
-    public static void openShop()
+    public static void openShop(Player p, Item peasant, Item potion, Item talisman, Item superUltraNuke)
     {
         string shopChoice;
         Console.Clear();
-        Console.WriteLine(p.name             p.money);
+        Console.WriteLine(p.name + p.money);
         Console.WriteLine("");
         Console.WriteLine("1. Peasant                         2g");
         Console.WriteLine("2. Potion                          10g");
