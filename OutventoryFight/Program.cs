@@ -1,5 +1,7 @@
 ﻿using OutventoryFight;
 
+Menu menu = new();
+
 // objects
 string restart = "yes";
 Player p = new();
@@ -31,7 +33,7 @@ p.name = Console.ReadLine();
 // game
 while (restart == "yes")
 {
-    Menu.MainMenu(p, potion, Bandit);
+    menu.MainMenu(p, potion, Bandit);
 }
 
 Console.ReadLine();

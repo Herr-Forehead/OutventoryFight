@@ -3,8 +3,14 @@ namespace OutventoryFight;
 
 public class Shop
 {
+    Item potion = new();
+    Item peasant = new();
+    Item talisman = new();
+    Item superUltraNuke = new();
+    Spell spark = new();
+    Spell Firebolt = new();
     public string shopChoice;
-    public static void openShop(Player player, Item peasant, Item potion, Item talisman, Item superUltraNuke)
+    public void openShop(Player player)
     {
         string shopChoice;
         Console.Clear();

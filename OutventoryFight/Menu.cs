@@ -2,7 +2,9 @@
 
 public class Menu
 {
-    public static void MainMenu(Player player, Item item, Enemy enemy)
+    Shop shop = new();
+    
+    public void MainMenu(Player player, Item item, Enemy enemy)
     {
         string mainMenuChoice;
         Console.Clear();
@@ -19,7 +21,7 @@ public class Menu
         }
         else if (mainMenuChoice == "b)" || mainMenuChoice == "b" || mainMenuChoice == "shop")
         {
-            Shop.openShop(player, item);
+            shop.openShop(player);
         }
         else if (mainMenuChoice == "c)" || mainMenuChoice == "c" || mainMenuChoice == "fight")
         {
