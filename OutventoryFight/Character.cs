@@ -2,7 +2,7 @@
 
 public class Character
 {
-
+    //  all base stats for characters
     public string name;
     public Inventory Inventory = new();
     public int Maxhp;

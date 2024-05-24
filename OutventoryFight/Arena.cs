@@ -1,4 +1,5 @@
-﻿namespace OutventoryFight;
+﻿
+namespace OutventoryFight;
 
 public class Arena
 {
@@ -49,5 +50,10 @@ public class Arena
             }
             }
         }
+    }
+
+    internal static void arenaFight(Player player, Enemy enemy)
+    {
+        throw new NotImplementedException();
     }
 }

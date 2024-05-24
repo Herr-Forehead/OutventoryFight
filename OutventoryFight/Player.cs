@@ -7,4 +7,5 @@ public class Player : Character
     {
         int HitChance = player.Hitroll+player.luck;
     }
+    // method for hitchance
 }
