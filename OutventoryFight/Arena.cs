@@ -37,13 +37,13 @@ public class Arena
                 spellChoice = Console.ReadLine();
                 if(spellChoice == "a)" || spellChoice == "a" || spellChoice == "firebolt")
                 {
-                    player.HitChance;
-                    if(player.HitChance() > 25)
-                    {
-                      Firebolt.damage();
-                    }
-                    else
-                    {}
+                    // player.HitChance;
+                    // if(player.HitChance() > 25)
+                    // {
+                    //   Firebolt.damage();
+                    // }
+                    // else
+                    // {}
                 }
 
             }

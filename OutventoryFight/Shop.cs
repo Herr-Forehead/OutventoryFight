@@ -3,11 +3,11 @@
 public class Shop
 {
     public string shopChoice;
-    public static void openShop(Player p, Item peasant, Item potion, Item talisman, Item superUltraNuke)
+    public static void openShop(Player player, Item peasant, Item potion, Item talisman, Item superUltraNuke)
     {
         string shopChoice;
         Console.Clear();
-        Console.WriteLine(p.name + p.money);
+        Console.WriteLine(player.name + player.money);
         Console.WriteLine("");
         Console.WriteLine("1. Peasant                         2g");
         Console.WriteLine("2. Potion                          10g");
@@ -17,24 +17,24 @@ public class Shop
         shopChoice = Console.ReadLine();
         if (shopChoice == "Peasant" || shopChoice == "peasant" || shopChoice == "1")
         {
-            p.money -= peasant.cost;
-            p.Inventory.Add(peasant);
+            player.money -= peasant.cost;
+            player.Inventory.Add(peasant);
             Console.WriteLine("Congrats, you bought a Peasant!!");
         }
         else if (shopChoice == "Potion" || shopChoice == "potion" || shopChoice == "2")
         {
-            p.money -= potion.cost;
-            p.Inventory.Add(potion);
+            player.money -= potion.cost;
+            player.Inventory.Add(potion);
         }
         else if (shopChoice == "Talisman" || shopChoice == "talisman" || shopChoice == "3")
         {
-            p.money -= talisman.cost;
-            p.Inventory.Add(talisman);
+            player.money -= talisman.cost;
+            player.Inventory.Add(talisman);
         }
         else if (shopChoice == "Nuke" || shopChoice == "nuke" || shopChoice == "4")
         {
-            p.money -= superUltraNuke.cost;
-            p.Inventory.Add(superUltraNuke);
+            player.money -= superUltraNuke.cost;
+            player.Inventory.Add(superUltraNuke);
         }
         else if (shopChoice == "no")
         {
