@@ -46,9 +46,4 @@ public class Shop
 
         }
     }
-
-    internal static void openShop(Player player, Item item)
-    {
-        throw new NotImplementedException();
-    }
 }

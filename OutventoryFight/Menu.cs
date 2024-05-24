@@ -23,7 +23,7 @@ public class Menu
         }
         else if (mainMenuChoice == "c)" || mainMenuChoice == "c" || mainMenuChoice == "fight")
         {
-            Arena.arenaFight(player, enemy);
+            // Arena.arenaFight(player, enemy);
         }
         else if (mainMenuChoice == "d)" || mainMenuChoice == "d" || mainMenuChoice == "quit")
         {

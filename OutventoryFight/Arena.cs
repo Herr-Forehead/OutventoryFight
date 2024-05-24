@@ -51,9 +51,4 @@ public class Arena
             }
         }
     }
-
-    internal static void arenaFight(Player player, Enemy enemy)
-    {
-        throw new NotImplementedException();
-    }
 }
